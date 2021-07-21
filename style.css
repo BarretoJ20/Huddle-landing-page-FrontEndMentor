@@ -1,0 +1,57 @@
+:root {
+  --magenta-color: hsl(300, 69%, 71%);
+  --violeta-color: hsl(257, 40%, 49%);
+}
+
+body {
+  background-image: url(images/bg-desktop.svg);
+  background-color: var(--violeta-color);
+  background-repeat: no-repeat;
+  height: 800px;
+  margin: 0;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  border-style: none;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0.8px 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.2);
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+
+  height: 55px;
+  width: 300px;
+}
+
+button:hover {
+  background-color: var(--magenta-color);
+  color: #ffffff;
+}
+
+.logo {
+  margin-left: 80px;
+  margin-top: 65px;
+}
+
+.container-central-image {
+  display: flex;
+  height: 500px;
+  margin: 100px auto 0 auto;
+  width: 1280px;
+}
+.container-texts {
+}
